@@ -2,6 +2,11 @@
 
 **Round 1 Interview Assignment** · Principal Software Developer  
 
+
+https://github.com/user-attachments/assets/94f51826-ec0f-458f-afb9-09ba1c66926f
+
+
+
 Dual-mode **Log HCP Interaction** screen for pharma / life-sciences field representatives:
 
 | Mode | Description |
