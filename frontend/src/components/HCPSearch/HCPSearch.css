@@ -1,0 +1,66 @@
+.hcp-search {
+  position: relative;
+}
+
+.hcp-input-wrap {
+  position: relative;
+}
+
+.hcp-spinner {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hcp-dropdown {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.hcp-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+.hcp-option:last-child {
+  border-bottom: none;
+}
+
+.hcp-option:hover,
+.hcp-option.selected {
+  background: var(--primary-soft);
+}
+
+.hcp-option-name {
+  font-weight: 550;
+  font-size: 13.5px;
+}
+
+.hcp-option-meta {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.hcp-empty {
+  padding: 14px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}
