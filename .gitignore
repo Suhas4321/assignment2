@@ -1,0 +1,66 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+*.db
+*.sqlite3
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Secrets / env ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+backend/.env
+**/.env
+
+# ── Node / frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+npm-debug.log*
+yarn-error.log*
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+pgdata/
+
+# ── Assignment materials (do not publish) ─────────────────────────────────────
+*.pdf
+Naukri*
+extracted_img*
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mov
+*.webm
+
+# Keep repo favicon if needed later
+!frontend/public/favicon.svg
+
+# ── Logs / temp ───────────────────────────────────────────────────────────────
+*.log
+tmp/
+temp/
+.cache/
